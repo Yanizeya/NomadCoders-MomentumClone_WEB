@@ -1,0 +1,9 @@
+@font-face{
+    font-family: 'NanumGothic';
+    src: url(Nanum_Gothic/NanumGothic-Regular.ttf) format('truetype');
+  }
+  
+html{
+    font-size: 10px;
+    font-family: 'NanumGothic';
+}
