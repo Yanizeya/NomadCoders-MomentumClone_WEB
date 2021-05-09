@@ -1,2 +1,2 @@
-# WebTuto
-'바닐라JS로 크롬앱 만들기'
+# MomentumClone
+'바닐라JS로 Momentum Clone 제작'
