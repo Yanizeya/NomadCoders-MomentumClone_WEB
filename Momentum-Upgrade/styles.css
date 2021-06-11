@@ -1,12 +1,1 @@
-body{
-    background-color: beige;
-}
-
-h1{
-    color : cornflowerblue;
-    user-select: none;   
-}
-
-.active{
-    color : tomato;
-}
+body{}
