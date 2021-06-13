@@ -1,10 +1,10 @@
-// const loginForm = document.getElementById("login-form");
+ const loginForm = document.getElementById("login-form");
 const loginInput = document.querySelector("#login-form input");
-const loginButton = document.querySelector("#login-form button");
 
-function onLoginButton(potato){
+function onLoginSubmit(potato){
     potato.preventDefault();
     console.log(potato);
+    console.log(loginInput.value);
 }
 
-loginButton.addEventListener("submit", onLoginButton);
+loginForm.addEventListener("submit", onLoginSubmit);
