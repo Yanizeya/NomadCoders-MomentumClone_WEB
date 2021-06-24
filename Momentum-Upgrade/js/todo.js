@@ -40,3 +40,12 @@ toDoForm.addEventListener("submit", handleToDoSubmit);
 
 const savedToDos = localStorage.getItem(TODOS_KEY);
 
+function sayHello(item){
+    console.log("1. this is the turn of", item);
+}
+
+if(savedToDos !== null){
+    const parsedToDos = JSON.parse(savedToDos);
+    parsedToDos.forEach(sayHello);
+    parsedToDos.forEach((item) => console.log("2. this is the turn of ", item));
+}
